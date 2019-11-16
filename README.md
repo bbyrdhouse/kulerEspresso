@@ -1,5 +1,6 @@
 # kulerEspresso
-A theme for Espresso for Mac
+A really aweome dark theme theme for Espresso for Mac. Easy on the eyes.
+
 
 How to Use
 ----------
