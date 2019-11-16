@@ -1,0 +1,238 @@
+/*
+  @theme Kuler
+  @override-placeholders css, html, php, php-html
+  @author Gary Byrd
+*/
+
+* { spell-check: disabled; }  
+
+@base {
+	color: #f8f8f8;
+	background-color: #1f1f1f;
+	insertion-point-color: #f8f8f8;
+	selection-background-color: #685959;
+}
+
+string { color: #fecccc; }
+
+comment, comment > punctuation, comment > delimiter, comment.block, comment.block > punctuation, comment.line, comment.line > punctuation, comment.single-line, comment.single-line > punctuation {
+	color: #cdcdcd; }
+
+function name, identifier.function, class name {
+	color: #ffc0c0; }
+
+function delimiter.parenthesis, function delimiter.separator {
+	color: #f8f8f8; }
+
+pointer, operator { color: #f8f8f8; }
+
+keyword { color: #e76a6a; }
+
+variable { color: #76aace; }
+
+value { color: #e85a48; }
+
+text.html.basic { color: #baffa9; }
+
+
+
+/* @group HTML+XML */
+
+tag { color: #6ce; spell-check: disabled; }
+
+embedded-style tag, embedded-javascript tag { color: #f69; }
+
+html doctype, html doctype name, html doctype punctuation,
+xml processing-instruction, xml processing-instruction string, xml processing-instruction string value {
+	color: #6a4e0e; }
+
+html string value,
+xml string value {
+	color: #f8f8f8; }
+
+html character.entity { color: #87ddd5; }
+
+tag.self-closing {
+	color: #66a8cc;
+}
+
+/* @end */
+
+/* @group CSS */
+
+styling {
+	spell-check: disabled;
+}
+
+css selector {
+	color: #59a5bc;
+}
+
+css property-name {
+	color: #f6f665;
+}
+
+css property-value {
+	color: #f7f78f;
+}
+
+css punctuation.separator, css punctuation.terminator {
+	color: #e0e0e0;
+}
+
+css important {
+	color: #fb6c25;
+}
+
+/* @end */
+
+
+/* @group Javascript */
+
+js { color:  ; }
+js delimiter { color: #cbc9c9; }
+js keyword, js storage { color: #0cc;  }
+js comment, js comment.line, js comment.line > punctuation, js comment.single-line, js comment.single-line > punctuation{ color: #acacac; }
+js > operator { color: #f8f8f8; }
+function.js { color: ; }
+js string { color:  #ff9; }
+function.js name { color: #f8f8f8; }
+embedded.sourcecode.js { color: #f8f8f8; }
+
+js constant {
+	color: #c70808;
+}
+
+/* @end */
+
+
+/* @group PHP */
+
+php embedded.source, embedded.source.php {
+	background: #1f1f1f;
+	spell-check: disabled;
+}
+
+php delimiter.embedded.source, php delimiter.embedded.source keyword {
+	color: #f8f8f8;
+}
+
+php function > name, php identifier.function > name, php class > name {
+	color: #EE0F04;
+	font-weight: normal;
+}
+
+php keyword.definition, php keyword.constant.other, php > keyword.constant.other, php container keyword.constant.other, php literal.keyword.constant, php literal.keyword.bool, php literal.keyword.null, php keyword.modifier, php literal.numeric > numeric {
+	color: #e85a48;
+	font-weight: normal;
+}
+
+php literal.numeric > numeric {
+	background: #1a1a1a;
+}
+
+php identifier.variable, php > variable, php > variable > operator, php string variable, php identifier.variable > dollar-sign, php delimiter.variable.begin {
+	color: #87ddd5;
+}
+
+php metadata.phpDoc {
+	color: #654704;
+}
+
+php value {
+	background: #1a1a1a;
+}
+
+php identifier.function delimiter {
+	color: #f8f8f8;
+}
+
+php identifier.function delimiter.quote {
+	color: #91c837;
+}
+
+/* PHP+HTML overrides */
+
+php.html tag name {
+	color: #e85a48;
+}
+
+php.html tag value {
+	background: #323232;
+}
+
+php.html tag.doctype name {
+	color: #6a4e0e;
+}
+
+/* @end */
+
+/* @group ExpressionEngine */
+
+ee.tag, ee.operator, ee.attribute-name,
+ee ee.tag > ee.name, ee ee.tag > ee.punctuation, ee ee.tag.conditional,
+ee ee.tag ee.attribute-name {
+	color: #87ddd5;
+}
+
+ee ee.tag ee.attribute-name {
+	font-weight: normal;
+}
+
+ee ee.tag.self-closing.conditional {
+	background: #333;
+}
+
+ee.attribute, ee ee.tag ee.attribute {
+	color: #91c837;
+}
+
+/* @end */
+
+/* @group Actionscript */
+
+as3 keyword.as3, as3 keyword.bool {
+	color: #e85a48;
+}
+
+as3 keyword.function.as3 {
+	color: #EE0F04;
+}
+
+as3 method name, as3 keyword.operators.as3 {
+	color: #f8f8f8;
+}
+
+as3 integral.value {
+	background: #333;
+}
+
+as3 keyword.class.as3 {
+	color: #87ddd5;
+}
+
+/* @end */
+
+/* @group ColdFusion */
+
+cfm.tag {
+	color: #87ddd5;
+}
+
+cfm operator, cfm keyword {
+	color: #e85a48;
+}
+
+cfml.embedded output {
+	color: #f8f8f8;
+}
+
+cfml.embedded coldfusion.embedded {
+	color: #e7786a
+}
+
+function.cfm > parenthesis {
+	color: #87ddd5;
+}
+
+/* @end */
