@@ -14,9 +14,9 @@ Then move or link it to the Espresso themes folder (note that you may need to cr
 
 	mkdir -p ~/Library/Application\ Support/Espresso/Themes/
 	
-	mv Monokaffee.css ~/Library/Application\ Support/Espresso/Themes/
+	mv Kuler.css ~/Library/Application\ Support/Espresso/Themes/
 	-- or --
-	ln -s Monokaffee.css ~/Library/Application\ Support/Espresso/Themes/
+	ln -s Kuler.css ~/Library/Application\ Support/Espresso/Themes/
   
   or just navigate to the themes folder: 
   
