@@ -18,7 +18,11 @@ Then move or link it to the Espresso themes folder (note that you may need to cr
 	-- or --
 	ln -s Monokaffee.css ~/Library/Application\ Support/Espresso/Themes/
   
-  or just navigate to the themes folder: ~/Library/Application Support/Espresso/themes then drag and drop the css file into that folder. Once you have done that, completely close out of and restart Espresso. 
+  or just navigate to the themes folder: 
+  
+	~/Library/Application Support/Espresso/Themes
+ 
+ then drag and drop the css file into that folder. Once you have done that, completely close out of and restart Espresso. 
   
   Next you will need to open Espresso, then open the Preferences and selct "Colors" and then select "Kuler" from the dropdown list.
   
